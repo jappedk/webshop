@@ -1,5 +1,9 @@
 ﻿body {
 }
-#ShoppingCart{
-
+aside{
+    position:fixed; top:25%; right:1%; 
+    width:23%;
+    float:right;
+    padding-right:7px;
+    padding-top:5px;
 }
