@@ -3,18 +3,19 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using webshopAdmin;
 using webshopAdmin.Service;
 using webshopAdmin.Dao;
+using System.Linq;
 
 namespace UnitTestProject
 {
     [TestClass]
     public class UnitTest1
     {
-        [ClassInitialize]
+        
         public webshopAdmin.Service.Service service = new webshopAdmin.Service.Service();
         lewebshopEntities db = webshopAdmin.Dao.Database.db;
-        
 
-        
+
+        [ClassInitialize]
         [TestMethod]
         public void createProduct()
         {
