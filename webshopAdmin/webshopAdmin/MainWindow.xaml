@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="lblVigtig" Content="JAKOB" HorizontalAlignment="Left" Margin="123,138,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
