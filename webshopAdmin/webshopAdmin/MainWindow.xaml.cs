@@ -23,6 +23,25 @@ namespace webshopAdmin
         public MainWindow()
         {
             InitializeComponent();
+
+            lewebshopEntities DB = new lewebshopEntities();
+
+            UserProfile testuser = new UserProfile();
+            
+            LoginUser testloginuser = new LoginUser();
+            testloginuser.id = 000001;
+            testloginuser.name = "woodlive";
+            testloginuser.pass = "1234";
+
+            testuser.LoginUser = testloginuser;
+            testuser.id = 1;
+            testuser.Email = "blabla@bmail.com";
+
+            DB.UserProfiles.Add(testuser);
+
+            DB.SaveChanges();
+
+            lblVigtig.Content = testuser.Email;
         }
     }
 }

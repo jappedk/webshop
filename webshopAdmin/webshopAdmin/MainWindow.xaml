@@ -4,6 +4,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label x:Name="lblVigtig" Content="JAKOB :D" HorizontalAlignment="Left" Margin="123,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.489,0.538" Height="89" Width="199" FontSize="25"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="291,232,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
