@@ -40,8 +40,6 @@ namespace webshopAdmin
             DB.UserProfiles.Add(testuser);
 
             DB.SaveChanges();
-
-            lblVigtig.Content = testuser.Email;
         }
     }
 }
